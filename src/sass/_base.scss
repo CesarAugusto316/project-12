@@ -1,0 +1,42 @@
+:root {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+  --primary-color: hsl(243, 87%, 54%);
+  --primary-light-color: hsl(232, 84%, 70%);
+  --white-color: rgb(255, 255, 255);
+  --grey-light-color-1: rgb(246, 246, 246);
+  --grey-light-color-2: rgb(239, 239, 239);
+  --primary-light-color-opac: hsla(225, 29%, 30%, 0.2);
+  --grey-dark-color-1: rgb(153, 155, 172);
+  --grey-dark-color-2: hsl(234, 11%, 50%);
+  --grey-dark-color-3: rgb(50, 58, 80);
+  --font-size: 1.6rem;
+  --grid-width: 114rem;
+  // gaps
+  --gutter-vertical: 8rem;
+  --gutter-vertical-small: 6rem;
+  --gutter-horizontal: 6rem;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  border: none;
+}
+
+ul {
+  list-style: none;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+*:focus {
+  outline: none;
+}

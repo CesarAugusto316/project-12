@@ -1,0 +1,16 @@
+body {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--grey-light-color-1);
+  width: 100%;
+  min-height: 100vh;
+  color: var(--grey-dark-color-3);
+}
+
+.container {
+  padding: 6rem;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
